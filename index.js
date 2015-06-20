@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
   response.setHeader('Content-Type', 'application/json');
-  response.send("{\"createOrderDataResponse\":{\"orderID\":\"96986\",\"errorMessage\":\"\",\"errorCode\":\"\"}}");
+  response.send("{\"createOrderDataResponse\":{\"orderID\":\"98623896986\",\"error\":{\"errorMessage\":\"\",\"errorCode\":\"\"}}}");
 });
 //Jossa 3
 app.listen(app.get('port'), function() {
