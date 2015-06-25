@@ -8,7 +8,7 @@ app.get('/', function(request, response) {
   response.setHeader('Content-Type', 'application/json');
   response.send("{\"createOrderDataResponse\":{\"orderID\":\"98623896986\",\"error\":{\"errorMessage\":\"\",\"errorCode\":\"\"}}}");
 });
-//Jossa 3
+//Update 24/06
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
